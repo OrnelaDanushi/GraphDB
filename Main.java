@@ -274,6 +274,42 @@ public class Main {
 		}
 	}
 
+	public static void updatingRarely(){
+		//----------------------------------------------------------------aggiornamento connessioni fisiche							
+		try ( Session session = driver.session() ){
+			session.writeTransaction( new TransactionWork<String>(){ //before the physicalConnections update
+				public String execute( Transaction tx ){
+					tx.run( 
+						"MATCH (nA:Host)-[c:PHYSIC]->(nB:Host) "
+						+"DELETE c "						
+						);										
+					System.out.println("\nPrima dell'aggiornamento delle connessioni fisiche");
+					return "";					
+				}
+			});	
+		}//after this execution change manually the physicalConnections file				
+		//and call the creating physicalConnections, such before		
+		try ( Session session = driver.session() ){
+			session.writeTransaction( new TransactionWork<String>(){ //creating physicalConnections between hosts, with an edge
+				public String execute( Transaction tx ){
+					StatementResult result = tx.run( 
+						"LOAD CSV WITH HEADERS FROM 'file:///ConnessioniFisicheHosts.csv' AS row "
+						+"WITH row.NodoA AS nodoA, row.NodoB AS nodoB "						
+						+"MATCH (nA:Host),(nB:Host) " 
+						+"WHERE nA.ID=nodoA AND nB.ID=nodoB AND nodoA<>nodoB "
+						+"MERGE (nA) -[:PHYSIC]-> (nB) "
+						+"RETURN nA.ID,nB.ID"
+						);										
+					System.out.println("Creazione connessioni fisiche tra i seguenti host:");
+					while ( result.hasNext() ){ 
+						Record record = result.next();
+						System.out.println("\t"+record.get(0)+"\t->\t"+record.get(1) );
+					}
+					return "";					
+				}
+			});	
+		}				
+	}	
 	public static void querying( final String hostA, final String hostB, final String noHost ){
 		//---------------------------------------------------------------------------------------								
 		try ( Session session = driver.session() ){
@@ -302,12 +338,12 @@ public class Main {
 						+ "WHERE nA.ID="+hostA+ " AND nB.ID="+hostB
 						+"RETURN paths"
 						);
-					/*System.out.println("Lettura tutti i possibili cammini tra 2 Host specifici: "+hostA+" ->* "+hostB);
+					System.out.println("Lettura tutti i possibili cammini tra 2 Host specifici: "+hostA+" ->* "+hostB);
 					while ( result.hasNext() ){ 
 						Record record = result.next();
 						System.out.println("\t"+record.get(0) );
 											
-					}*/
+					}
 					return "";					
 				}
 			});	
@@ -330,7 +366,7 @@ public class Main {
 					return "";					
 				}
 			});	
-		}					
+		}			
 	}
 	
 	public static void main( String[] args ){				
@@ -371,7 +407,8 @@ public class Main {
 					break;
 				case 1 : edges(); break; 
 				case 2 : updating(); break;
-				case 3 : 
+				case 3 : updatingRarely(); break;
+				case 4 : 
 					System.out.println("Per poter visualizzare anche la query dei possibili cammini tra 2 host specifici\n"
 							+"assicurarsi di aver prima fatto il passaggio 1.\n"
 							+ "E' possibile scegliere tra i seguenti host: (hostA, hostB, noHost)\n"
@@ -381,14 +418,28 @@ public class Main {
 					for( int i=0; i<arrHostCollection.length; i++){
 						System.out.println(i+": "+arrHostCollection[i]);
 					}
-					int hostA=sc.nextInt(); if( hostA<0 ){ hostA=0; arrHostCollection[hostA]=""; }
-					int hostB=sc.nextInt();  if( hostB<0 ){ hostB=0; arrHostCollection[hostB]=""; }
-					int noHost=sc.nextInt(); if( noHost<0 ){ noHost=0; arrHostCollection[noHost]=""; }					
-					querying(arrHostCollection[hostA], arrHostCollection[hostB], arrHostCollection[noHost] );
-					
-					//System.out.println(arrHostCollection[hostA] + arrHostCollection[hostB] + arrHostCollection[noHost] );
+					int hostA=Integer.parseInt(sc.next()); 
+					int hostB=Integer.parseInt(sc.next()); 
+					int noHost=Integer.parseInt(sc.next()); 	
+					if( hostA<0 || hostA>arrHostCollection.length ){ //A<0 
+						if( hostB<0 || hostB>arrHostCollection.length ){ //A<0,B<0
+							if( noHost<0 || noHost>arrHostCollection.length ){ querying("null","null","null"); } //A<0,B<0,C<0
+							else{ querying("null","null",arrHostCollection[noHost]); }//A<0,B<0,C>0
+						}else{ //A<0,B>0
+							if( noHost<0 || noHost>arrHostCollection.length ){ querying("null",arrHostCollection[hostB],"null"); }//A<0,B>0,C<0
+							else{ querying("null",arrHostCollection[hostB],arrHostCollection[noHost]);}//A<0,B>0,C>0							
+						}
+					}else{ //A>0
+						if( hostB<0 || hostB>arrHostCollection.length ){ //A>0,B<0 
+							if( noHost<0 || noHost>arrHostCollection.length ){ querying(arrHostCollection[hostA],"null","null"); }//A>0,B<0,C<0
+							else{ querying(arrHostCollection[hostA],"null",arrHostCollection[noHost]); }//A>0,B<0,C>0
+						}else{ //A>0,B>0
+							if( noHost<0 || noHost>arrHostCollection.length){ querying(arrHostCollection[hostA],arrHostCollection[hostB],"null"); }//A>0,B>0,C<0
+							else{ querying(arrHostCollection[hostA],arrHostCollection[hostB],arrHostCollection[noHost]);} //A>0,B>0,C>0							
+						}
+					}
 					break; 
-				case 4 : continua = false; break; 
+				case 5 : continua = false; break; 
 				default: scelta = sc.nextInt();
 			}			
 		}
