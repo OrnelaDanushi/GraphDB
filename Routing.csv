@@ -1,0 +1,347 @@
+CVSS,Risk,Host,Name,Description
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.101","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+7.5,"High","10.0.111.101","SNMP Agent Default Community Name (public)","It is possible to obtain the default community name of the remote SNMP server.
+
+An attacker may use this information to gain more knowledge about the remote host, or to change the configuration of the remote system (if the default community allows such modifications)."
+2.6,"Low","10.0.111.101","SSH Server CBC Mode Ciphers Enabled","The SSH server is configured to support Cipher Block Chaining (CBC) encryption.  This may allow an attacker to recover the plaintext message from the ciphertext. 
+
+Note that this plugin only checks for the options of the SSH server and does not check for vulnerable software versions."
+2.6,"Low","10.0.111.101","SSH Weak MAC Algorithms Enabled","The remote SSH server is configured to allow either MD5 or 96-bit MAC algorithms, both of which are considered weak.
+
+Note that this plugin only checks for the options of the SSH server, and it does not check for vulnerable software versions."
+5.0,"Medium","10.0.111.101","SNMP 'GETBULK' Reflection DDoS","The remote SNMP daemon is responding with a large amount of data to a 'GETBULK' request with a larger than normal value for 'max-repetitions'. A remote attacker can use this SNMP server to conduct a reflected distributed denial of service attack on an arbitrary remote host."
+7.8,"High","10.0.111.101","Cisco IOS DHCPv6 Relay Message Handling DoS (cisco-sa-20160323-dhcpv6)","According to its self-reported version, the Cisco IOS software running on the remote device is affected by a denial of service vulnerability in the DHCPv6 Relay feature due to improper validation of DHCPv6 relay messages. An unauthenticated, remote attacker can exploit this issue, via a crafted DHCPv6 relay message, to cause the device to reload."
+7.1,"High","10.0.111.101","Cisco IOS IKEv2 Fragmentation DoS (cisco-sa-20160323-ios-ikev2)","According to its self-reported version, the Cisco IOS software running on the remote device is affected by a denial of service vulnerability in the Internet Key Exchange version 2 (IKEv2) subsystem due to improper handling of fragmented IKEv2 packets. An unauthenticated, remote attacker can exploit this issue, via specially crafted UDP packets, to cause the device to reload.
+
+Note that this issue only affects devices with IKEv2 fragmentation enabled and is configured for any VPN type based on IKEv2."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+10.0,"Critical","10.0.111.102","SNMP Agent Default Community Names","It is possible to obtain the default community names of the remote SNMP server.
+
+An attacker can use this information to gain more knowledge about the remote host or to change the configuration of the remote system (if the default community allows such modifications)."
+4.0,"Medium","10.0.111.102","SSL Certificate Signed Using Weak Hashing Algorithm","The remote service uses an SSL certificate chain that has been signed using a cryptographically weak hashing algorithm (e.g. MD2, MD4, MD5, or SHA1). These signature algorithms are known to be vulnerable to collision attacks. An attacker can exploit this to generate another certificate with the same digital signature, allowing an attacker to masquerade as the affected service.
+
+Note that this plugin reports all SSL certificate chains signed with SHA-1 that expire after January 1, 2017 as vulnerable. This is in accordance with Google's gradual sunsetting of the SHA-1 cryptographic hash algorithm.
+
+Note that certificates in the chain that are contained in the Nessus CA database have been ignored."
+7.5,"High","10.0.111.102","SNMP Agent Default Community Name (public)","It is possible to obtain the default community name of the remote SNMP server.
+
+An attacker may use this information to gain more knowledge about the remote host, or to change the configuration of the remote system (if the default community allows such modifications)."
+5.8,"Medium","10.0.111.102","Unencrypted Telnet Server","The remote host is running a Telnet server over an unencrypted channel.
+
+Using Telnet over an unencrypted channel is not recommended as logins, passwords, and commands are transferred in cleartext. This allows a remote, man-in-the-middle attacker to eavesdrop on a Telnet session to obtain credentials or other sensitive information and to modify traffic exchanged between a client and server.
+
+SSH is preferred over Telnet since it protects credentials from eavesdropping and can tunnel additional data streams such as an X11 session."
+4.3,"Medium","10.0.111.102","SSL Medium Strength Cipher Suites Supported","The remote host supports the use of SSL ciphers that offer medium strength encryption, which we currently regard as those with key lengths at least 56 bits and less than 112 bits.
+
+Note: This is considerably easier to exploit if the attacker is on the same physical network."
+6.4,"Medium","10.0.111.102","SSL Certificate Cannot Be Trusted","The server's X.509 certificate does not have a signature from a known public certificate authority.  This situation can occur in three different ways, each of which results in a break in the chain below which certificates cannot be trusted. 
+
+First, the top of the certificate chain sent by the server might not be descended from a known public certificate authority.  This can occur either when the top of the chain is an unrecognized, self-signed certificate, or when intermediate certificates are missing that would connect the top of the certificate chain to a known public certificate authority. 
+
+Second, the certificate chain may contain a certificate that is not valid at the time of the scan.  This can occur either when the scan occurs before one of the certificate's 'notBefore' dates, or after one of the certificate's 'notAfter' dates. 
+
+Third, the certificate chain may contain a signature that either didn't match the certificate's information, or could not be verified.  Bad signatures can be fixed by getting the certificate with the bad signature to be re-signed by its issuer.  Signatures that could not be verified are the result of the certificate's issuer using a signing algorithm that Nessus either does not support or does not recognize. 
+
+If the remote host is a public host in production, any break in the chain makes it more difficult for users to verify the authenticity and identity of the web server. This could make it easier to carry out man-in-the-middle attacks against the remote host."
+6.4,"Medium","10.0.111.102","SSL Self-Signed Certificate","The X.509 certificate chain for this service is not signed by a recognized certificate authority.  If the remote host is a public host in production, this nullifies the use of SSL as anyone could establish a man-in-the-middle attack against the remote host. 
+
+Note that this plugin does not check for certificate chains that end in a certificate that is not self-signed, but is signed by an unrecognized certificate authority."
+4.3,"Medium","10.0.111.102","SSL RC4 Cipher Suites Supported (Bar Mitzvah)","The remote host supports the use of RC4 in one or more cipher suites.
+The RC4 cipher is flawed in its generation of a pseudo-random stream of bytes so that a wide variety of small biases are introduced into the stream, decreasing its randomness.
+
+If plaintext is repeatedly encrypted (e.g., HTTP cookies), and an attacker is able to obtain many (i.e., tens of millions) ciphertexts, the attacker may be able to derive the plaintext."
+4.3,"Medium","10.0.111.102","SSL RC4 Cipher Suites Supported (Bar Mitzvah)","The remote host supports the use of RC4 in one or more cipher suites.
+The RC4 cipher is flawed in its generation of a pseudo-random stream of bytes so that a wide variety of small biases are introduced into the stream, decreasing its randomness.
+
+If plaintext is repeatedly encrypted (e.g., HTTP cookies), and an attacker is able to obtain many (i.e., tens of millions) ciphertexts, the attacker may be able to derive the plaintext."
+2.6,"Low","10.0.111.102","SSH Server CBC Mode Ciphers Enabled","The SSH server is configured to support Cipher Block Chaining (CBC) encryption.  This may allow an attacker to recover the plaintext message from the ciphertext. 
+
+Note that this plugin only checks for the options of the SSH server and does not check for vulnerable software versions."
+2.6,"Low","10.0.111.102","SSH Weak MAC Algorithms Enabled","The remote SSH server is configured to allow either MD5 or 96-bit MAC algorithms, both of which are considered weak.
+
+Note that this plugin only checks for the options of the SSH server, and it does not check for vulnerable software versions."
+5.0,"Medium","10.0.111.102","SNMP 'GETBULK' Reflection DDoS","The remote SNMP daemon is responding with a large amount of data to a 'GETBULK' request with a larger than normal value for 'max-repetitions'. A remote attacker can use this SNMP server to conduct a reflected distributed denial of service attack on an arbitrary remote host."
+7.5,"High","10.11.0.1","SNMP Agent Default Community Name (public)","It is possible to obtain the default community name of the remote SNMP server.
+
+An attacker may use this information to gain more knowledge about the remote host, or to change the configuration of the remote system (if the default community allows such modifications)."
+4.3,"Medium","10.11.0.1","SSL Medium Strength Cipher Suites Supported","The remote host supports the use of SSL ciphers that offer medium strength encryption, which we currently regard as those with key lengths at least 56 bits and less than 112 bits.
+
+Note: This is considerably easier to exploit if the attacker is on the same physical network."
+6.4,"Medium","10.11.0.1","SSL Certificate Cannot Be Trusted","The server's X.509 certificate does not have a signature from a known public certificate authority.  This situation can occur in three different ways, each of which results in a break in the chain below which certificates cannot be trusted. 
+
+First, the top of the certificate chain sent by the server might not be descended from a known public certificate authority.  This can occur either when the top of the chain is an unrecognized, self-signed certificate, or when intermediate certificates are missing that would connect the top of the certificate chain to a known public certificate authority. 
+
+Second, the certificate chain may contain a certificate that is not valid at the time of the scan.  This can occur either when the scan occurs before one of the certificate's 'notBefore' dates, or after one of the certificate's 'notAfter' dates. 
+
+Third, the certificate chain may contain a signature that either didn't match the certificate's information, or could not be verified.  Bad signatures can be fixed by getting the certificate with the bad signature to be re-signed by its issuer.  Signatures that could not be verified are the result of the certificate's issuer using a signing algorithm that Nessus either does not support or does not recognize. 
+
+If the remote host is a public host in production, any break in the chain makes it more difficult for users to verify the authenticity and identity of the web server. This could make it easier to carry out man-in-the-middle attacks against the remote host."
+4.3,"Medium","10.11.0.1","SSL RC4 Cipher Suites Supported (Bar Mitzvah)","The remote host supports the use of RC4 in one or more cipher suites.
+The RC4 cipher is flawed in its generation of a pseudo-random stream of bytes so that a wide variety of small biases are introduced into the stream, decreasing its randomness.
+
+If plaintext is repeatedly encrypted (e.g., HTTP cookies), and an attacker is able to obtain many (i.e., tens of millions) ciphertexts, the attacker may be able to derive the plaintext."
+4.3,"Medium","10.11.0.1","SSL RC4 Cipher Suites Supported (Bar Mitzvah)","The remote host supports the use of RC4 in one or more cipher suites.
+The RC4 cipher is flawed in its generation of a pseudo-random stream of bytes so that a wide variety of small biases are introduced into the stream, decreasing its randomness.
+
+If plaintext is repeatedly encrypted (e.g., HTTP cookies), and an attacker is able to obtain many (i.e., tens of millions) ciphertexts, the attacker may be able to derive the plaintext."
+2.6,"Low","10.11.0.1","SSH Server CBC Mode Ciphers Enabled","The SSH server is configured to support Cipher Block Chaining (CBC) encryption.  This may allow an attacker to recover the plaintext message from the ciphertext. 
+
+Note that this plugin only checks for the options of the SSH server and does not check for vulnerable software versions."
+2.6,"Low","10.11.0.1","SSH Weak MAC Algorithms Enabled","The remote SSH server is configured to allow either MD5 or 96-bit MAC algorithms, both of which are considered weak.
+
+Note that this plugin only checks for the options of the SSH server, and it does not check for vulnerable software versions."
+5.0,"Medium","10.11.0.1","SNMP 'GETBULK' Reflection DDoS","The remote SNMP daemon is responding with a large amount of data to a 'GETBULK' request with a larger than normal value for 'max-repetitions'. A remote attacker can use this SNMP server to conduct a reflected distributed denial of service attack on an arbitrary remote host."
+10.0,"Critical","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : openssl vulnerabilities (USN-2914-1)","Yuval Yarom, Daniel Genkin, and Nadia Heninger discovered that OpenSSL was vulnerable to a side-channel attack on modular exponentiation. On certain CPUs, a local attacker could possibly use this issue to recover RSA keys. This flaw is known as CacheBleed. (CVE-2016-0702)
+
+Adam Langley discovered that OpenSSL incorrectly handled memory when parsing DSA private keys. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0705)
+
+Guido Vranken discovered that OpenSSL incorrectly handled hex digit calculation in the BN_hex2bn function. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0797)
+
+Emilia Ksper discovered that OpenSSL incorrectly handled memory when performing SRP user database lookups. A remote attacker could possibly use this issue to cause OpenSSL to consume memory, resulting in a denial of service. (CVE-2016-0798)
+
+Guido Vranken discovered that OpenSSL incorrectly handled memory when printing very long strings. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0799)."
+10.0,"Critical","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : openssl vulnerabilities (USN-2914-1)","Yuval Yarom, Daniel Genkin, and Nadia Heninger discovered that OpenSSL was vulnerable to a side-channel attack on modular exponentiation. On certain CPUs, a local attacker could possibly use this issue to recover RSA keys. This flaw is known as CacheBleed. (CVE-2016-0702)
+
+Adam Langley discovered that OpenSSL incorrectly handled memory when parsing DSA private keys. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0705)
+
+Guido Vranken discovered that OpenSSL incorrectly handled hex digit calculation in the BN_hex2bn function. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0797)
+
+Emilia Ksper discovered that OpenSSL incorrectly handled memory when performing SRP user database lookups. A remote attacker could possibly use this issue to cause OpenSSL to consume memory, resulting in a denial of service. (CVE-2016-0798)
+
+Guido Vranken discovered that OpenSSL incorrectly handled memory when printing very long strings. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0799)."
+10.0,"Critical","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : openssl vulnerabilities (USN-2914-1)","Yuval Yarom, Daniel Genkin, and Nadia Heninger discovered that OpenSSL was vulnerable to a side-channel attack on modular exponentiation. On certain CPUs, a local attacker could possibly use this issue to recover RSA keys. This flaw is known as CacheBleed. (CVE-2016-0702)
+
+Adam Langley discovered that OpenSSL incorrectly handled memory when parsing DSA private keys. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0705)
+
+Guido Vranken discovered that OpenSSL incorrectly handled hex digit calculation in the BN_hex2bn function. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0797)
+
+Emilia Ksper discovered that OpenSSL incorrectly handled memory when performing SRP user database lookups. A remote attacker could possibly use this issue to cause OpenSSL to consume memory, resulting in a denial of service. (CVE-2016-0798)
+
+Guido Vranken discovered that OpenSSL incorrectly handled memory when printing very long strings. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0799)."
+10.0,"Critical","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : openssl vulnerabilities (USN-2914-1)","Yuval Yarom, Daniel Genkin, and Nadia Heninger discovered that OpenSSL was vulnerable to a side-channel attack on modular exponentiation. On certain CPUs, a local attacker could possibly use this issue to recover RSA keys. This flaw is known as CacheBleed. (CVE-2016-0702)
+
+Adam Langley discovered that OpenSSL incorrectly handled memory when parsing DSA private keys. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0705)
+
+Guido Vranken discovered that OpenSSL incorrectly handled hex digit calculation in the BN_hex2bn function. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0797)
+
+Emilia Ksper discovered that OpenSSL incorrectly handled memory when performing SRP user database lookups. A remote attacker could possibly use this issue to cause OpenSSL to consume memory, resulting in a denial of service. (CVE-2016-0798)
+
+Guido Vranken discovered that OpenSSL incorrectly handled memory when printing very long strings. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0799)."
+10.0,"Critical","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : openssl vulnerabilities (USN-2914-1)","Yuval Yarom, Daniel Genkin, and Nadia Heninger discovered that OpenSSL was vulnerable to a side-channel attack on modular exponentiation. On certain CPUs, a local attacker could possibly use this issue to recover RSA keys. This flaw is known as CacheBleed. (CVE-2016-0702)
+
+Adam Langley discovered that OpenSSL incorrectly handled memory when parsing DSA private keys. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0705)
+
+Guido Vranken discovered that OpenSSL incorrectly handled hex digit calculation in the BN_hex2bn function. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0797)
+
+Emilia Ksper discovered that OpenSSL incorrectly handled memory when performing SRP user database lookups. A remote attacker could possibly use this issue to cause OpenSSL to consume memory, resulting in a denial of service. (CVE-2016-0798)
+
+Guido Vranken discovered that OpenSSL incorrectly handled memory when printing very long strings. A remote attacker could use this issue to cause OpenSSL to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2016-0799)."
+7.5,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : perl vulnerabilities (USN-2916-1)","It was discovered that Perl incorrectly handled certain regular expressions with an invalid backreference. An attacker could use this issue to cause Perl to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2013-7422)
+
+Markus Vervier discovered that Perl incorrectly handled nesting in the Data::Dumper module. An attacker could use this issue to cause Perl to consume memory and crash, resulting in a denial of service.
+(CVE-2014-4330)
+
+Stephane Chazelas discovered that Perl incorrectly handled duplicate environment variables. An attacker could possibly use this issue to bypass the taint protection mechanism. (CVE-2016-2381)."
+7.5,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : perl vulnerabilities (USN-2916-1)","It was discovered that Perl incorrectly handled certain regular expressions with an invalid backreference. An attacker could use this issue to cause Perl to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2013-7422)
+
+Markus Vervier discovered that Perl incorrectly handled nesting in the Data::Dumper module. An attacker could use this issue to cause Perl to consume memory and crash, resulting in a denial of service.
+(CVE-2014-4330)
+
+Stephane Chazelas discovered that Perl incorrectly handled duplicate environment variables. An attacker could possibly use this issue to bypass the taint protection mechanism. (CVE-2016-2381)."
+7.5,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : perl vulnerabilities (USN-2916-1)","It was discovered that Perl incorrectly handled certain regular expressions with an invalid backreference. An attacker could use this issue to cause Perl to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2013-7422)
+
+Markus Vervier discovered that Perl incorrectly handled nesting in the Data::Dumper module. An attacker could use this issue to cause Perl to consume memory and crash, resulting in a denial of service.
+(CVE-2014-4330)
+
+Stephane Chazelas discovered that Perl incorrectly handled duplicate environment variables. An attacker could possibly use this issue to bypass the taint protection mechanism. (CVE-2016-2381)."
+7.5,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 : pixman vulnerability (USN-2918-1)","Vincent LE GARREC discovered an integer underflow in pixman. If a user were tricked into opening a specially crafted file, a remote attacker could cause pixman to crash, resulting in a denial of service, or possibly execute arbitrary code."
+7.5,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : jasper vulnerabilities (USN-2919-1)","Jacob Baines discovered that JasPer incorrectly handled ICC color profiles in JPEG-2000 image files. If a user were tricked into opening a specially crafted JPEG-2000 image file, a remote attacker could cause JasPer to crash or possibly execute arbitrary code with user privileges. (CVE-2016-1577)
+
+Tyler Hicks discovered that JasPer incorrectly handled memory when processing JPEG-2000 image files. If a user were tricked into opening a specially crafted JPEG-2000 image file, a remote attacker could cause JasPer to consume memory, resulting in a denial of service.
+(CVE-2016-2116)."
+7.5,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : jasper vulnerabilities (USN-2919-1)","Jacob Baines discovered that JasPer incorrectly handled ICC color profiles in JPEG-2000 image files. If a user were tricked into opening a specially crafted JPEG-2000 image file, a remote attacker could cause JasPer to crash or possibly execute arbitrary code with user privileges. (CVE-2016-1577)
+
+Tyler Hicks discovered that JasPer incorrectly handled memory when processing JPEG-2000 image files. If a user were tricked into opening a specially crafted JPEG-2000 image file, a remote attacker could cause JasPer to consume memory, resulting in a denial of service.
+(CVE-2016-2116)."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.3,"High","10.11.0.1","Ubuntu 14.04 / 15.10 : graphite2 vulnerabilities (USN-2927-1)","It was discovered that graphite2 incorrectly handled certain malformed fonts. If a user or automated system were tricked into opening a specially- crafted font file, a remote attacker could use this issue to cause graphite2 to crash, resulting in a denial of service, or possibly execute arbitrary code."
+5.8,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pam vulnerabilities (USN-2935-1)","It was discovered that the PAM pam_userdb module incorrectly used a case-insensitive method when comparing hashed passwords. A local attacker could possibly use this issue to make brute-force attacks easier. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2013-7041)
+
+Sebastian Krahmer discovered that the PAM pam_timestamp module incorrectly performed filtering. A local attacker could use this issue to create arbitrary files, or possibly bypass authentication. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS.
+(CVE-2014-2583)
+
+Sebastien Macke discovered that the PAM pam_unix module incorrectly handled large passwords. A local attacker could possibly use this issue in certain environments to enumerate usernames or cause a denial of service. (CVE-2015-3238)."
+5.8,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pam vulnerabilities (USN-2935-1)","It was discovered that the PAM pam_userdb module incorrectly used a case-insensitive method when comparing hashed passwords. A local attacker could possibly use this issue to make brute-force attacks easier. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2013-7041)
+
+Sebastian Krahmer discovered that the PAM pam_timestamp module incorrectly performed filtering. A local attacker could use this issue to create arbitrary files, or possibly bypass authentication. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS.
+(CVE-2014-2583)
+
+Sebastien Macke discovered that the PAM pam_unix module incorrectly handled large passwords. A local attacker could possibly use this issue in certain environments to enumerate usernames or cause a denial of service. (CVE-2015-3238)."
+5.8,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pam vulnerabilities (USN-2935-1)","It was discovered that the PAM pam_userdb module incorrectly used a case-insensitive method when comparing hashed passwords. A local attacker could possibly use this issue to make brute-force attacks easier. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2013-7041)
+
+Sebastian Krahmer discovered that the PAM pam_timestamp module incorrectly performed filtering. A local attacker could use this issue to create arbitrary files, or possibly bypass authentication. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS.
+(CVE-2014-2583)
+
+Sebastien Macke discovered that the PAM pam_unix module incorrectly handled large passwords. A local attacker could possibly use this issue in certain environments to enumerate usernames or cause a denial of service. (CVE-2015-3238)."
+5.8,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pam regression (USN-2935-2)","USN-2935-1 fixed vulnerabilities in PAM. The updates contained a packaging change that prevented upgrades in certain multiarch environments. This update fixes the problem.
+
+We apologize for the inconvenience.
+
+It was discovered that the PAM pam_userdb module incorrectly used a case-insensitive method when comparing hashed passwords. A local attacker could possibly use this issue to make brute-force attacks easier. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2013-7041)
+
+Sebastian Krahmer discovered that the PAM pam_timestamp module incorrectly performed filtering. A local attacker could use this issue to create arbitrary files, or possibly bypass authentication. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2014-2583)
+
+Sebastien Macke discovered that the PAM pam_unix module incorrectly handled large passwords. A local attacker could possibly use this issue in certain environments to enumerate usernames or cause a denial of service. (CVE-2015-3238)."
+5.8,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pam regression (USN-2935-2)","USN-2935-1 fixed vulnerabilities in PAM. The updates contained a packaging change that prevented upgrades in certain multiarch environments. This update fixes the problem.
+
+We apologize for the inconvenience.
+
+It was discovered that the PAM pam_userdb module incorrectly used a case-insensitive method when comparing hashed passwords. A local attacker could possibly use this issue to make brute-force attacks easier. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2013-7041)
+
+Sebastian Krahmer discovered that the PAM pam_timestamp module incorrectly performed filtering. A local attacker could use this issue to create arbitrary files, or possibly bypass authentication. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2014-2583)
+
+Sebastien Macke discovered that the PAM pam_unix module incorrectly handled large passwords. A local attacker could possibly use this issue in certain environments to enumerate usernames or cause a denial of service. (CVE-2015-3238)."
+5.8,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pam regression (USN-2935-2)","USN-2935-1 fixed vulnerabilities in PAM. The updates contained a packaging change that prevented upgrades in certain multiarch environments. This update fixes the problem.
+
+We apologize for the inconvenience.
+
+It was discovered that the PAM pam_userdb module incorrectly used a case-insensitive method when comparing hashed passwords. A local attacker could possibly use this issue to make brute-force attacks easier. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2013-7041)
+
+Sebastian Krahmer discovered that the PAM pam_timestamp module incorrectly performed filtering. A local attacker could use this issue to create arbitrary files, or possibly bypass authentication. This issue only affected Ubuntu 12.04 LTS and Ubuntu 14.04 LTS. (CVE-2014-2583)
+
+Sebastien Macke discovered that the PAM pam_unix module incorrectly handled large passwords. A local attacker could possibly use this issue in certain environments to enumerate usernames or cause a denial of service. (CVE-2015-3238)."
+4.3,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : tiff vulnerabilities (USN-2939-1)","It was discovered that LibTIFF incorrectly handled certain malformed images. If a user or automated system were tricked into opening a specially crafted image, a remote attacker could crash the application, leading to a denial of service, or possibly execute arbitrary code with user privileges."
+4.3,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : tiff vulnerabilities (USN-2939-1)","It was discovered that LibTIFF incorrectly handled certain malformed images. If a user or automated system were tricked into opening a specially crafted image, a remote attacker could crash the application, leading to a denial of service, or possibly execute arbitrary code with user privileges."
+4.3,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : tiff vulnerabilities (USN-2939-1)","It was discovered that LibTIFF incorrectly handled certain malformed images. If a user or automated system were tricked into opening a specially crafted image, a remote attacker could crash the application, leading to a denial of service, or possibly execute arbitrary code with user privileges."
+4.3,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : tiff vulnerabilities (USN-2939-1)","It was discovered that LibTIFF incorrectly handled certain malformed images. If a user or automated system were tricked into opening a specially crafted image, a remote attacker could crash the application, leading to a denial of service, or possibly execute arbitrary code with user privileges."
+4.3,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : tiff vulnerabilities (USN-2939-1)","It was discovered that LibTIFF incorrectly handled certain malformed images. If a user or automated system were tricked into opening a specially crafted image, a remote attacker could crash the application, leading to a denial of service, or possibly execute arbitrary code with user privileges."
+4.3,"Medium","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : tiff vulnerabilities (USN-2939-1)","It was discovered that LibTIFF incorrectly handled certain malformed images. If a user or automated system were tricked into opening a specially crafted image, a remote attacker could crash the application, leading to a denial of service, or possibly execute arbitrary code with user privileges."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+9.0,"High","10.11.0.1","Ubuntu 12.04 LTS / 14.04 / 15.10 : pcre3 vulnerabilities (USN-2943-1)","It was discovered that PCRE incorrectly handled certain regular expressions. A remote attacker could use this issue to cause applications using PCRE to crash, resulting in a denial of service, or possibly execute arbitrary code."
+4.3,"Medium","10.11.0.1","SSH Weak Algorithms Supported","This plugin detects the encryption algorithms supported by the remote SSH server and reports algorithms known to be weak."
